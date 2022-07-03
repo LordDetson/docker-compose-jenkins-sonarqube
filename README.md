@@ -25,11 +25,12 @@ Note:
 3.	Running `docker-compose up -d` is all you need.
 
 4. Install Maven
-   1. Go to Manage Jenkins > Global Tool Configuration > Maven
-   2. Click "Maven installations"
-   3. Write the name (For example: `Maven`)
-   4. Select Install automatically
-   5. Select the vesion (For example: `3.6.3`)
+   1. Open and login Jenkins (http://localhost:8080/). Note: At the first start, Jenkins will ask you for a password. This password is displayed in the log. However, you can have access to this password via the container.
+   2. Go to Manage Jenkins > Global Tool Configuration > Maven
+   3. Click "Maven installations"
+   4. Write the name (For example: `Maven`)
+   5. Select Install automatically
+   6. Select the vesion (For example: `3.6.3`)
 
 5. Setup Java
    1. Go to Manage Jenkins > Global Tool Configuration > JDK
@@ -46,7 +47,7 @@ Note:
    6. Wait for the plugin to download and install, then the server will restart
 
 7. Setup SonarQube Scanner
-   1. Open and login SonarQube
+   1. Open and login SonarQube (http://localhost:9000/)
    2. Go to Administration > Security > Users
    3. Click "Update Tokens"
    4. Enter token name
@@ -86,8 +87,6 @@ Note:
 9. Go to the created job
 10. Click Build Now
 11. Wait for the build to finish
-
-After all these steps, you will be able to see the results of the SonarQube analysis.
 
 ## Feedback
 If you have any remarks or ideas for improvement, please email me (babanin.dima@gmail.com).
