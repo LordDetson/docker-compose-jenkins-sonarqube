@@ -88,5 +88,7 @@ Note:
 10. Click Build Now
 11. Wait for the build to finish
 
+After all these steps, you will be able to see the results of the SonarQube analysis.
+
 ## Feedback
 If you have any remarks or ideas for improvement, please email me (babanin.dima@gmail.com).
